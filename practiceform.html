@@ -1,0 +1,96 @@
+<html>
+<head>
+	<style>
+		.container {
+    	width: 25%;
+      margin: auto;
+      padding: 10px;
+      border-radius: 10px;
+      border: 3px solid green;
+      box-sizing: border-box;
+      box-shadow: 3px 3px 20px green;
+      position: relative;
+      top: 75px;
+    }
+        input[type=text], select
+        {
+        width: 100%;
+        border: none;
+        border-bottom: 2px solid blue;
+        border-radius: 3px;
+        outline: none;
+
+        }      
+        input[type=email]
+        {     
+        width: 100%;
+        border: none;
+        border-bottom: 2px solid blue;
+        border-radius: 3px;
+        outline: none;
+
+        }
+        input[type=number]
+         {
+        width: 100%;
+        border: none;
+        border-bottom: 2px solid blue;
+        border-radius: 3px;
+        outline: none;
+
+        }
+        input[type=password]
+         {
+        width: 100%;
+        border: none;
+        border-bottom: 2px solid blue;
+        border-radius: 3px;
+        outline: none;
+
+        }
+        input[type=submit]
+         {
+        width: 100%;
+        border: 3px solid lightgreen;
+        border-radius: 4px;
+        background-color: lightgreen;
+        font-weight: 600;
+        font-size: 20px;
+        padding: 6px;
+        font-family: verdana;
+        box-shadow: 2px 2px 14px green;
+            }
+      
+	</style>
+</head>
+	<body>
+      <div class="container">
+      	<form action="">
+      	<h2 style="text-align:center">Registration form</h2>
+      	<label for="name">Name</label><br>
+      		<input type="text" id="name" name="name"><br><br>
+      	<label for="email">Email Address</label><br>
+      		<input type="email" id="email" class="email"><br><br>
+        <label for="country">Country</label><br>
+        <select id="country" name="country">
+      		<option value="india">India</option>
+      		<option value="us">US</option>
+      		<option value="uk">UK</option>
+      	</select><br><br>
+      	<label for="number">Phone No.</label><br>
+          <input type="text" id="text" class="number"><br><br>
+      	<label for="pwd">Password</label><br>
+      		<input type="password" id="pwd" name="pwd"><br><br>
+            <input type="checkbox" id="accept" name="accept">
+            <label for="accept">I accept term & condition</label><br><br>
+      	<input type="submit" value="Create Account">
+      </form>
+  </div>
+</body>
+</html>
+
+
+
+
+
+   
